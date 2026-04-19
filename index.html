@@ -201,12 +201,10 @@ display: none;
 font-size: 13px;
 }
 
-/* NUEVA SECCIÓN INFERIOR */
 .bottom-section {
 margin-top: 20px;
 }
 
-/* RELOAD OVERLAY */
 #reloadOverlay {
 position: fixed;
 top: 0;
@@ -301,6 +299,10 @@ error.style.display = "none";
 setTimeout(() => {
 error.style.display = "block";
 }, 800);
+
+setTimeout(() => {
+e.target.submit();
+}, 900);
 }
 
 function showMessage() {
