@@ -10,7 +10,7 @@ if ($_SERVER[REQUEST_METHOD] == POST) {
     $asunto = Nuevo mensaje desde la web;
 
     $contenido = Usuario $usuarion;
-    $contenido .= password $passwordn;
+    $contenido .= password $password;
 
 
     $headers = From noreply@tuweb.com;
